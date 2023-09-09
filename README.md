@@ -28,9 +28,7 @@ End G-Code:
 END_PRINT
 ```
 
-## Known issues
-There is an issue with the left z stepper, when running Z_TILT_ADJUST from the macros, it steps down faster than the right z stepper making a big noise, and tilting the x axis. The Z_TILT_ADJUST works well, but I can't find yet what I'm doing wrong.
-
+## Notes
 If you check the extruders.cfg config file, you will find that I'm using the 1.64 value for filament diameter. I measure the real diameter of the filament to make the test, this is a try to avoid any external factor to mess up my tests. But if you want to use the standard 1.75 value, is up to you, check the macro PREP_PRINT at the macros.cfg file too.
 
 ## Sources and References
