@@ -40,3 +40,6 @@ And the Klipper documentation.
 Also, my first try with this running on Klipper, was on the Creality Sonic Pad, so, I'd flashed the firmware through it.
 
 
+## Tenlog 32bit Motherboard POC (WIP)
+There is a '32bit_board' folder with the 32bit motherboard support for Klipper. Is a Work In Progress. But if you want to try, put the file klipper.bin behind a 'user' folder in a micro SD card, and name the klipper.bin file to firmware.bin, then power on the board, and it will be flashed into the MCU. Use the configs as in 32bit_board/cfg files. Do this at your own risk. Remember, is a WIP.
+If you want to compile the firmware on your own, you need to wait to Klipper to support HC32F460-PETB (Klipper currently supports the 64pin package mcu, Tenlog's board, comes with a 100pin package mcu, PETB variant), or, you can modify the gpio.c and hard_pwm.c files as shown in gpio.c.png and hard_pwm.c.png and compile using the menuconfig as shown in the file menuconfig.png
