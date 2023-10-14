@@ -14,7 +14,7 @@ void setup()
     delay(10);
 
     // We start by connecting to a WiFi network
-    WiFiMulti.addAP("BRIAN-2.4GHz", "asd");
+    WiFiMulti.addAP("BRIAN-2.4GHz", "cuervocuervo01");
 
     Serial.println();
     Serial.println();
