@@ -46,3 +46,7 @@ If you want to compile the firmware on your own, you need to wait to Klipper to 
 
 ## IDEX COPY/MIRROR mode
 Added Macros from: https://github.com/Klipper3d/klipper/blob/master/config/sample-idex.cfg
+
+## UART support for TMC 2208/2209
+Managed to add UART support for TMC 2209 drivers. Removing the useless wifi module, you will be able to get 3 pins from there (PB0, PA6, PB1), then aside of this module, there is another serial / spio connector, from there, you can get another two pins (PA14, PA13). Just solved this puzzle, and now I'm testing the machine, once I get the results I will update this README.md file with the instructions. In the 32bit motherboard folder, under the Research folder, you will find an image with the pin reference.
+
