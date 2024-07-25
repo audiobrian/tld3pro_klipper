@@ -1,4 +1,5 @@
 <h1>DEPRECATED</h1>
+No longer maintained since klipper already has the necessary modifications for HC32F460
 
 # Klipper on Tenlog TLD3 Pro
 This is a work in progress to control the Tenlog TL-D3 Pro printer with Klipper.
