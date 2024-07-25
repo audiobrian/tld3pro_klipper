@@ -1,3 +1,5 @@
+<h1>DEPRECATED</h1>
+
 # Klipper on Tenlog TLD3 Pro
 This is a work in progress to control the Tenlog TL-D3 Pro printer with Klipper.
 AKA: HICTOP D3 Hero / Hellbot Hidra Plus
